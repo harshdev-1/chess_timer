@@ -1,0 +1,35 @@
+@font-face {
+    font-family: gilroy;
+    src: url(./Gilroy-ExtraBold.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.white{
+    width: 100%;
+    height: 45vh;
+    background: #000000;
+}
+.black{
+    width: 100%;
+    height: 45vh;
+    background: #ffffff;
+}
+.timer-box{
+    width: 100%;
+    height: 10vh;
+    background: #0e77bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timer{
+    font-family: gilroy;
+    font-size: larger;
+}
